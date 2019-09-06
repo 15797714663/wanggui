@@ -1,0 +1,111 @@
+.bannerbox {
+    width:100%;
+    position:relative; 
+    overflow:hidden;
+    height:420px;
+}
+.banner {
+    width:1920px;
+    position:absolute;
+    left:50%;
+    margin-left:-960px;
+    text-align: center;
+}
+.banner .p{
+    font-size: 68px;
+    color: #fff;
+    position: absolute;
+    left: 50%;top: 50%;
+    margin-left: -135px;
+    margin-top: -45px;
+}
+.first-main{
+    padding:30px 0;
+    width: 1200px;
+    margin:0 auto;
+}
+.first-main .title{
+    width: 130px;
+    margin:0 auto;
+}
+.first-main .title .name{
+    font-size: 32px;
+    color: #000;
+}
+.first-main .title .line{
+    margin-top: 14px;
+    height: 4px;
+    width: 60px;
+    background: #4E7DFA;
+}
+
+.first-main .first-content{
+    margin:60px auto 0;
+    width: 1200px;
+}
+.first-main .left{
+    float:left;
+    width: 610px;
+    height: 580px;
+    box-sizing: border-box;
+    padding:60px 50px; 
+    text-align: left;
+    margin-right:40px;
+}
+.first-main .left .text{
+    font-size: 14px;
+    color:#555555;
+    line-height: 28px;
+}
+.first-main .left .text .h50{
+    height: 50px;
+}
+.first-main .right {
+    float: left;
+    padding:30px 30px 30px 0;
+}
+.first-main .right .item{
+    margin-bottom: 32px;
+    display: block;
+}
+.first-main .right .item .head{
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    padding-left:30px;
+    border-left: 2px solid #4E7DFA;
+}
+.first-main .right .item .grey{
+    font-size: 14px;
+    color: #666;
+    margin-left: 30px;
+}
+.first-main .right img{
+    padding-left: 30px;
+}
+.second-main{
+    padding:30px 0 40px 0;
+    width:1200px;margin: 0 auto;
+}
+.re-use1{
+    background:url('../images/about-us/bg-1.png');
+    text-align: center;
+    padding: 52px 0;
+    height: 150px;
+    box-sizing: border-box;
+}
+.re-use1 .use-b{
+    width: 250px;
+    height: 46px;
+    line-height: 46px;
+    border: 1px solid #fff;
+    font-size: 20px;
+    color: #fff;
+    background: transparent;
+}
+/* .re-use1 .use-c{
+    width: 100px;
+    height: 20px;
+    border: 1px solid #fff;
+} */

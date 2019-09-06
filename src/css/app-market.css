@@ -1,0 +1,174 @@
+html,body,h1,h2,h3,h4,h5,h6,div,dl,dt,dd,ul,ol,li,p,blockquote,pre,hr,figure,table,caption,th,td,form,fieldset,legend,input,button,textarea,menu{margin:0;padding:0;}
+a{text-decoration: none;color:unset;}
+body{font-family:"Microsoft YaHei",Arial,Helvetica,sans-serif;-webkit-text-size-adjust:none;min-width:1200px;}
+input[type='text'],input[type='number'],input[type='password'],input[type='reset'],input[type='submit'],input[type='button'],input[type='tel'],button,textarea{outline:none;border-radius:0; border:none;} /*去掉苹果的默认UI来渲染按钮*/
+ol,ul{list-style: none;} 
+h1,h2,h3,h4,h5,h6 {font-weight: normal;} 
+textarea{overflow:auto;resize:none;}
+i,em{font-style:normal;}
+img{border:0;vertical-align: middle;}
+.clearfix:after{content: "";display: block;height: 0;clear:both;visibility: hidden;}
+.fafafa{background-color:#fafafa;}
+
+body {
+    background: #FBFCFF;
+}
+.bannerbox {
+    width: 100%;
+    position: relative;
+    /* top:78px; */
+    overflow: hidden;
+    height: 400px;
+}
+
+.banner {
+    width: 1920px;
+    position: absolute;
+    left: 50%;
+    margin-left: -960px;
+    text-align: center;
+}
+.second-main{
+    padding: 55px 0 0 0;
+    width: 1200px;
+    margin: 0 auto;
+    
+}
+.content {
+    width: 1200px;
+    padding: 0 12px;
+    box-sizing: border-box;
+}
+.breadcrumb {
+    float: left;
+    height: 30px;
+    margin-bottom: 40px;
+}
+.bigsize{
+    position: absolute;
+    left: 360px;
+    top:141px;
+    width:317px;
+    height:51px;
+    line-height: 51px;
+    font-size:52px;
+    font-family:Source Han Sans CN;
+    font-weight:bold;
+    color:rgba(255,255,255,1);
+}
+.smallsize{
+    position: absolute;
+    left: 360px;
+    top: 234px;
+    width:300px;
+    height:20px;
+    font-size:20px;
+    font-family:Source Han Sans CN;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    line-height:40px;
+
+}
+
+.breadcrumb .shezhi{
+    float: left;
+    width: 60px;
+    height: 30px; 
+    text-align: center;
+    margin-right: 15px;
+    /* position: relative; */
+}
+.breadcrumb a{
+    font-size:14px;
+    font-family:Source Han Sans CN;
+    font-weight:400;
+    color:rgba(37,52,92,1);
+    display: inline-block;
+    line-height: 30px;
+}
+.breadcrumb .lingshou{
+    float: left;
+    width: 86px;
+    height: 30px; 
+    text-align: center;
+    margin-right: 19px;
+    position: relative;
+}
+
+.breadcrumb .yingxiao{
+    float: left;
+    width: 86px;
+    height: 30px; 
+    text-align: center;
+    position: relative;
+}
+.breadcrumb .shezhi>a:hover,
+.breadcrumb .lingshou>a:hover,
+.breadcrumb .yingxiao>a:hover
+{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background-color: #4375F9;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.app-content{
+   /* margin-bottom: 51px; */
+   box-sizing: border-box;
+}
+.app-content ul{
+    float: left;
+}
+.app-content li{
+    float: left;
+    width: 366px;
+    height: 400px;
+    margin: 0 50px 50px 0;
+    padding: 56px 46px 60px 41px;
+    background-color: #fff;
+    box-sizing: border-box;
+    border: 1px solid rgba(211,214,222,0.3);
+    box-shadow: 4px 6px 15px 0px rgba(0,0,0,0.05);
+}
+.app-content li:nth-child(3n){
+    margin: 0 0 50px 0 !important;
+}
+.app-content li img{
+    display: block;
+    margin: 0 92px 50px 98px;
+    width: 89px;
+    width: 88px;
+}
+.app-content li .app-name{
+    font-size: 20px;
+    font-family: Source Han Sans CN;;
+    font-weight: 400;
+    /* width: 77px; */
+    /* height: 19px; */
+    text-align: center;
+}
+.app-content li .app-introduce{
+    color: #999;
+    font-size: 14px;
+    display: inline-block;
+    /* width:  */
+    padding: 29px 46px 60px 41px;
+}
+.re-use1{
+    background:url('../images/app-market/bg-1.png');
+    text-align: center;
+    padding: 52px 0;
+    height: 150px;
+    box-sizing: border-box;
+}
+.re-use1 .use-b{
+    width: 250px;
+    height: 46px;
+    line-height: 46px;
+    border: 1px solid #fff;
+    font-size: 20px;
+    color: #fff;
+    background: transparent;
+}
